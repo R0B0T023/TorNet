@@ -1,0 +1,74 @@
+body{
+    padding: 110px 500px;
+    
+    background-image: url(../img/IMG-20200902-WA0021.jpg);
+}
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #333333;
+}
+
+
+
+header #menu{
+    padding: 5px 0;
+}
+
+header #menu ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header #menu ul li{
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+    vertical-align:top;
+}
+
+header #menu ul li a{
+    display: inline-block;
+}
+
+header #menu ul li a{
+    text-align: center;
+    color: black;
+    text-decoration:none;
+}
+
+header #menu ul li a:hover{
+    text-decoration: underline;
+}
+
+header #menu ul #logo{
+    margin-right: 58%;
+    margin-left: 0px;
+}
+
+
+/***************************/
+#main-container header main{
+    margin: 0 auto;
+    width: 1400px;
+}
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container header main .text h1{   
+    font-size: 80px;
+}
+
+#main-container header main .text p{   
+    font-size: 24px;
+    padding: 20px 0;
+}
